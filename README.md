@@ -4,14 +4,11 @@ MAXIMUM SUPPORTED NUMBER - (2^63-1 = 9223372036854775807)
 
 
 
-import java.io.*;
-import java.util.Scanner;
-import java.lang.*;
+	import java.io.*;
+	import java.util.Scanner;
+	import java.lang.*;
 
-import inrCommaDelimited.*;    //importing package
-
-DEMO CODE:
-
+	import inrCommaDelimited.*;    //importing package
 
 	class Demo{
 	
@@ -29,18 +26,18 @@ DEMO CODE:
 	}
 
 
-OUTPUT:
+	OUTPUT:
 
-	Enter Amount
+		Enter Amount
 
-	9223372036854775807
+		9223372036854775807
 
-	Rs.92,23,37,20,36,85,47,75,807.00  //OUTPUT
+		Rs.92,23,37,20,36,85,47,75,807.00  //OUTPUT
 
 
-	Enter Amount
+		Enter Amount
 
-	000088231872817
+		000088231872817
 
 	Rs.88,23,18,72,817.00 //OUTPUT
 
