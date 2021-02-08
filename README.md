@@ -16,7 +16,6 @@ class Demo{
 		Scanner s = new Scanner(System.in);		
 		System.out.println("Enter Amount");   // maximum supported number = 9223372036854775807
 		long inr = s.nextLong();
-		
 		InrCommaDelimited obj =  new InrCommaDelimited();
 		System.out.println(obj.getInrCommaDelimited(inr));			//public String getInrCommaDelimited(Long value)
 	}
